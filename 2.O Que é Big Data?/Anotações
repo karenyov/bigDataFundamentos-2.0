@@ -1,0 +1,43 @@
+O que é Big Data?
+"Cerca de 90% de todos os dados gerados no planeta, foram gerados nos últimos 2 anos"
+
+Embora no início do Big Data já existe muitas informações processadas (Internet, TV etc).
+
+"Aproximadamente 80% dos dados são não estruturados ou estão em diferentes formatos, o que dificulta a análise"
+
+Dado não estruturado: ex. arquivo texto (.txt) não existe um formato definido apenas em texto.
+
+"Modelo de análise de dados estruturados, possuem limitações quando precisam tratar grandes volumes de dados"
+
+Formatos em banco de dados relacional e data warehouse tem grande dificuldade em tratar informações grandes.
+----------------------------------------------------------------
+PROBLEMAS:
+-Muitas empresas não sabem que dados precisam ser analisados
+-Muitas empresas nem mesmo sabem que os dados estão disponpiveis.
+-Dados preciosos são descartados por falta de conhecimento ou ferramentas de tratamento (ex arquivos de logs nos sistemas que acabam sendo descartados).
+
+"É caso manter e organizar grandes volumes de dados não-estruturados"
+
+------------------------------------------------------
+O que é Big Data?
+Big Data é uma coleção de conjuntos de dados, grandes e complexos, que não podem ser processados por bancos de dados ou aplicações de processamento tradicionais.
+
+Capacidade de uma sociedade de obter informações de maneiras novas e afim de gerar ideias úteis e bens e serviço de valor significativo.
+
+------------------------------------------------------
+A importância do Big Data
+Porque surgiram tecnologias que permitem processar esta grande quantidade de dados de forma eficiente e com baixo custo.
+Os dados podem ser analisados em seu formato nativo, seja ele estruturado, não estruturado ou streaming (fluxo constante de dados).
+
+
+------------------------------------------------------
+Os 4 V', do Big Data
+
+Volume - Tamanho dos Dados
+Velocidade - Geração dos Dados.
+Variedade - Formato dos Dados
+Veracidade - Confiabilidade dos Dados.
+------------------------------------------------------
+
+
+
