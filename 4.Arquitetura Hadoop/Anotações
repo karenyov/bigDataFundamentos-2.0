@@ -1,0 +1,118 @@
+Arquitetura Hadoop
+
+Hadoop não é um banco de dados.
+É um framework para armazenamento e processamento de grandes conjuntos de dados.
+
+
+Hadoop
+Modelo de Computação
+- Conceito de Jobs
+- Cada Job é uma unidade de trabalho
+- Não há controle de concorrência
+
+Modelo de Dados
+- Qualquer tipo de dado pode ser usado
+- Dados em qualquer formato
+- Modelo de apenas leitura
+
+Modelo de Custo
+- Máquinas de custo mais baixo podem ser usadas
+
+Tolerância a Falhas
+- Falhas são raras de ocorrer
+- Mecanismos de recuperação
+
+
+RDBMS
+Modelo de Computação
+- Conceito de transações
+- Uma transação é uma unidade de trabalho 
+- Controle de concorrência
+
+Modelo de Dados
+- dados estruturados com controle de esquema
+- Modelo de leitura/escrita
+
+Modelo de Custo
+- Servidores de maior custo são necessários
+
+Tolerância a Falhas
+- Simples, mas eficiente mecanismo de tolerância a falha
+
+
+---------------------------------------------------------
+
+O que é um Cluster?
+Um grupo de computadores que trabalham como se fosse apenas uma.
+
+---------------------------------------------------------
+
+Cluster Hadoop possui 2 tipos de nodes:
+- Master node
+- Worker(slave) node
+
+
+NameNode (máquina principal do sistema Hadoop)
+Secondary NameNode (roda em paralelo com o NameNode)
+DataNode (armazenam os dados)
+JobTracker
+TaskTracker
+
+---------------------------------------------------------
+Modos de Configuração do Hadoop
+
+Modo Standalone: Todos os serviços Hadoop são executados em uma única JVM, no mesmo servidor
+
+Pseudo Distribuído: Serviços individuais do Hadoop são atribuídos a JVM's individuais, no mesmo servidor
+
+Totalmente Distribuído: Serviços individuais do Hadoop são executados em JVM's individuais, mas através de cluster
+
+
+---------------------------------------------------------
+
+Arquitetura do HDFS (serviços rodando em computadores)
+
+1. Os serviços NameNode e Secondary Name Node, constituem os serviços Master. Os serviços DataNode são os slaves.
+2. O serviço Master é responsável por aceitar os Jobs das aplicações clientes e garantir que os dados requeridos para a operação sejam carregados e segregados em pedaçoes de blocos de dados.
+3.O HDFS permite que os dados sejam armazenados em arquivos. Um arquivo é dividido em um ou mais blocos que são armazenados e replicados pelos DatasNodes. Os blocos de dados são então distribuídos para o sistema de DataNodes dentro do cluster. Isso garante que as réplicas de dados sejam mantidas.
+4. As réplicas de cada bloco de dados são distribuídas em computadores em todo o cluster para permitir o acesso de dados confiável e deforma rápida.
+---------------------------------------------------------
+
+Arquitetura MapReduce (processamento, processar os dados armazenados)
+
+MapReduce
+	|
+	V
+Lista Ordenadas
+	|
+	V
+Lista Ordenadas ainda menores
+
+MapReduce foi projetado para usar computação paralela distribuída em Big Data e transformar os dados em pedaços menores.
+
+MapReduce funciona através de 2 operações:
+
+Mapeamento e Redução
+
+Mapeamento (Map): os dados são separados em pares (key-value pairs), transformados e filtrados. Então os dados são distribuídos para os nodes e processados.
+
+Redução (Reduce): os dados são agregados em conjuntos de dados (datasets) menores. Os dados resultantes do processo de redução são transformados em um formato padrão de chave-valor(key-value), onde a chave (key) funciona como o identificador do registro e o valor (value) é o dado (conteúdo) que é identificado pela chave.
+
+Processo de MapReduce
+Todo o processo se inicia com a requisição feita pelo cliente e o job submetido. O Job Tracker se encarrega de coordenar como o job será distribuído.
+
+Mapeamento dos dados: os dados de entrada são primeiramente distribuídos em pares key-value e divididos em fragmentos, que são então atribuídos a tarefas de mapeamento.
+
+Redução dos dados: cada operação de redução dos dados tem um fragmento atribuído.
+
+
+---------------------------------------------------------
+
+Cache Distribuído: é uma funcionalidade do Hadoop que permite cache dos arquivos usados pelas aplicações.
+
+Segurança: Hadoop utiliza o Kerberos, um mecanismo de autenticação usado por exemplo no sistema de diretórios dos servidores Windows e também no sistema operacional Linux.
+
+
+
+
+

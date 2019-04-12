@@ -1,0 +1,37 @@
+Questão 1
+Quais os principais módulos do Apache Hadoop?
+- Hadoop File System
+- Hadoop Yarn
+- Hadoop MapReduce
+- Todas estão corretas (correta)
+
+Questão 2
+Apache Hadoop é um software proprietário para armazenamento e processamento em larga escala de grandes conjuntos de dados (Big Data), em clusters de hardware de alto custo.
+
+- Verdadeiro
+- Falso (correta)
+obs: Apache Hadoop é um software open source para armazenamento e processamento em larga escala de grandes conjuntos de dados (Big Data), em clusters de hardware de baixo custo.
+
+Questão 3
+Uma das principais características do Hadoop é a confiabilidade e sua capacidade de se recuperar de falhas automaticamente.
+- Verdadeiro (correta)
+- Falso 
+
+Questão 4
+HDFS cluster possui dois tipos de nodes?
+- Namenode e Datanode (correta)
+- Bytenode e Teranode
+- Marter node e circle Node
+- Nanosystem e Datanode
+
+Questão 5
+Usa um tipo de análise de dados por força bruta. Todo o conjunto de dados é processador por cada query.
+- Hive
+- Mapreduce (correta)
+- HDFS
+- Cassandra
+
+
+
+
+

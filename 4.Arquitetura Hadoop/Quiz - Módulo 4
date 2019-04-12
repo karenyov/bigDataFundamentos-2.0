@@ -1,0 +1,39 @@
+Questão 1
+No Cluster Hadoop Pseudo Distribuído os serviços Hadoop são executados em uma única JVM, no mesmo servidor.
+
+- Verdadeiro
+- Falso (correta)
+obs: Os serviços individuais do Hadoop são atribuídos a JVM's individuais, no mesmo servidor, no Cluster Pseudo Distribuído.
+
+Questão 2
+Quais os 3 modos de configuração suportados pelo Hadoop?
+- Modo Standalone, Pseudo Distribuído e Totalmente Distribuído.(correta)
+- Modo em Batch, Pseudo Distribuído e Totalmente Distribuído.
+- Modo Standalone, Bath Distribuído e Totalmente Distribuído
+- Modo em Bath, Distribuído e Totalmente Distribuído.
+
+Questão 3
+Os serviços NameNode e Secondary NameNode, constituem os serviços Master. Os serviços DataNode são os slaves.
+
+- Verdadeiro (correta)
+- Falso
+
+Questão 4
+O HDFS permite que os dados sejam armazenados em arquivos. Um arquivo é dividido em um ou mais blocos que são armazenados e replicados pelos DataNodes. Os blocos de dados são então distribuídos para o sistema de DataNodes dentro do cluster. Isso garante que as réplicas de dados sejam mantidas.
+- Verdadeiro (correta)
+- Falso.
+
+Questão 5
+Quais as características de um Cluster Single-Node?
+
+- O Hadoop é instalado em um único computador.
+- O Hadoop é instalado em diversos nodes.
+- São usados para processamento simples, bom operações triviais de Mapreduce e HDFS.
+- São usados para computação complexa, normalmente envolvendo aplicações de Analytics.
+- Somente a e c estão corretas.(correta)
+
+
+
+
+
+

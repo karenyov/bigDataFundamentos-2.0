@@ -1,0 +1,91 @@
+O Que é o Apache Hadoop?
+
+É um software open source para armazenamento e processamento em larga escala de grandes conjuntos de dados (Big Data), em clusters de hardware de baixo custo.
+
+Hadoop é um sistema de armazenamento compartilhado, distribuído e altamente confiável para processamento de grandes volumes de dados através de clusters de computadores.
+
+-----------------------------------------------------------
+Componentes Base do Hadoop
+
+Hadoop HDFS: armazenamento distribuído
+Hadoop Map Reduce: computação distribuída
+
+Por que o Hadoop está se tornando o padrão nos projetos de Big Data?
+
+- Baixo Custo
+- Escalável
+- Tolerante a Falhas
+- Flexível (montar n estruturas)
+- Livre
+
+Hadoop HDFS
+- Tolerância a falhas a recuperação automática
+- Portabilidade entre hardware e sistemas operacionais heterogêneos.
+- Escabilidade para armazenar e processar grandes quantidades de dados.
+Confiabilidade, através da manutenção de várias cópias de dados.
+
+Hadoop Map Reduce
+- Flexibilidade - processa todos os dados independente do tipo de formato, seja estruturado ou não-estruturado.
+- Confiabilidade - permite que os jobs sejam executados em paralelo e em caso de falhas de um job, outros não são afetados.
+- Acessibilidade - suporte a diversas linguagens de programação como Java, C++, Python, Apache Pig.
+
+---------------------------------------------------------
+Hadoop HDFS (Hadoop Distributed File System)
+Sistema de Arquivos para gerenciar várias máquina como se fosse apenas uma.
+
+Foi desenvolvido utilizando o projeto do sistema de arquivos distribuídos (DFS). Ele é executado em hardware commodity (baixo custo). Ao contrário de outros sistemas distribuídos, HDFS é altamente tolerante a falha.
+
+DFS (Distributed File System) - foi criado para gestão de armazenamento em uma rede de computadores.
+
+HDFS é otimizado para armazenar grandes arquivos
+Foi pensado para executar em clusters de computadores de baixo custo.
+Foi pensado para ser ótimo em performance tipo WORM, que é um eficiente padrão de processamento de dados.
+
+Tipos de node
+
+Namenode (master node) - gerenciar 
+- Gerencia a estrutura do filesystem
+- Gerencia os metadados de todos os arquivos e diretórios dentro da estrutura.
+
+
+Datanode (worker node) - trabalhar
+- Armazena e busca blocos de dados quando solicitado pelo cliente ou Namenode
+- Reporta periodicamente para o Namenode com a lista de blocos que foram armazenados
+
+---------------------------------------------------------
+Hadoop Map Reduce
+É um modelo de programação para processamento e geração de grandes conjuntos de dados.
+
+MapReduce transforma o problema de análise em um processo computacional que usa conjuntos de chaves e valores.
+
+Foi desenvolvido para tarefas que consomem minutos ou horas em computadores conectados em rede de alta velocidade gerenciados por um único master
+
+Ele usa um tipo de análise de dados por força bruta. Todo o conjunto de dados é processado em cada query.
+
+Modelo de processamento em batch.
+
+MapReduce permite a execução de queries ad-hoc (executar a query direto no cluster não precisa de interface de uma página web ou sistema) em todo o conjunto de dados em um tempo escalável.
+
+O segredo da performance do MapReduce, está no balanceamento entre seeking e transfer: reduzir operações de seeking e usar de forma efetiva as operações de transfer.
+
+Seek time - é o delay para encontrar um arquivo
+Transfere rate - é a velocidade para encontrar o arquivo.
+
+O MapReduce é bom para atualizar todo (ou a maior parte) de um grande conjunto de dados.
+
+
+
+---------------------------------------------------------
+
+Tipos de Dados
+
+Dados Estruturados - Dados que são representados em formato tabular (ex. banco de dados relacional mySQL)
+
+Dados Semi Estruturado: Dados que não possuem um modelo formal de organização (ex. arquivos XML)
+
+Dados Não Estruturados - Dados sem estrutura pré-definida (ex. comentários em redes sociais etc.)
+
+MapReduce é muito efetivo com dados semi ou não estruturados
+
+---------------------------------------------------------
+
