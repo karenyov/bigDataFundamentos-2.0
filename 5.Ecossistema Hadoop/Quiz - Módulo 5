@@ -1,0 +1,41 @@
+Questão 1
+O framework ZooKeeper foi originalmente construído no "Yahoo!" para acessar seus aplicativos de uma forma fácil e robusta. Mais tarde, Apache ZooKeeper se tornou um padrão para a organização de serviços do Hadoop, HBase e outras estruturas distribuídas. Por exemplo, HBase usa ZooKeeper para acompanhar o estado de dados distribuídos.
+
+- Verdadeiro (correta)
+- Falso 
+
+
+Questão 2
+Qual o nome do sistema de agendamento de workflow usado para gerenciar os Jobs de MapReduce?
+
+- Hadoop File System 
+- Apache Oozie (correta)
+- Zookeeper
+- Todas estão corretas.
+
+
+Questão 3
+Sobre o Sqoop é correto afirmar:
+- É um projeto do ecossistema Hadoop, cuja responsabilidade é importar e exportar dados de bancos de dados relacionais.
+-  Sqoop permite mover os dados de bancos tradicionais como Microsoft SQL Server ou Oracle, para o Hadoop.
+- Transforma os dados no Hadoop como MapReduce ou Hive, sem necessidade de desenvolvimento adicional.
+- Todas estão corretas.(correta)
+
+
+Questão 4
+Possui 2 tipos de Nodes chamados: Master e Region Server
+- Apache Hive
+- Apache Hbase (correta)
+- Apache Pig
+- Apache Flume
+
+Questão 5
+O Mahout é dedicado ao Machine Learning. Este componente trabalha com clustering, que é uma das principais técnicas de Machine learning. 
+- Verdadeiro (correta)
+- Falso
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+Ecossistema Hadoop
+
+Apache Zookeeper (guardião)
+É uma solução open-source de alta performance, para coordenação de serviços em aplicações distribuídas.
+ZooKeeper é um serviço de coordenação distribuída para gerenciar grandes conjuntos de hosts (Clusters).
+
+
+---------------------------------------------------------
+Apache Oozie
+É um sistema de agendamento de workflow usado para gerenciar principalmente os Jobs de MapReduce.
+Oozie é integrado com o restante dos componentes do ecossistema Hadoop para apoiar vários tipos de trabalhos do Hadoop(como Java Map-Reduce, streaming Map-Reduce, Pig, Hive e Sqoop), bem como jobs específicos do sistema (como programas Java e scripts shell).
+
+---------------------------------------------------------
+Apache Hive
+É um Data Warehouse que funciona com Hadoop e MapReduce.
+Hive é um sistema de armazenamento de dados para Hadoop que facilita a agregação dos dados para relatórios e análise de grandes conjuntos de dados (Big Data).
+Ele permite consultas sobre os dados usando uma linguagem SQL-like, chamada HiveQL (HQL).
+
+
+(depende do MapReduce para execução)
+---------------------------------------------------------
+Apache Sqoop
+Sqoop é um projeto do ecossistema do Apache Hadoop, cuja responsabilidade é importar e exportar dados de bancos de dados relacionais.
+
+Sqoop significa SQL-to-Hadoop.
+
+
+---------------------------------------------------------
+Apache Pig
+É uma ferramenta que é utilizada para analisar grandes conjuntos de dados que representam fluxos de dados.
+
+
+---------------------------------------------------------
+Apache HBASE (noSQL)
+
+HBase é um banco de dados orientado a coluna construído sobre o sistem de arquivos do Hadoop.
+
+Ele aproveita a tolerância a falhas fornecidas pelo sistema de arquivos do Hadoop (HDFS).
+
+- O HBase é um tipo de banco de dados NoSQL e utiliza o modelo key-value (chave-valor).
+- Cada valor é identificado por uma chave.
+- Chaves e valores são do tipo byte-array.
+- Valores são armazenados por ordem de acordo com a chave.
+- os valores podem ser facilmente acessador por suas respectivas chaves.
+- No HBase, as tabelas não possuem schemas.
+
+O objetivo do HBase é armazenar tabelas realmente grandes, com bilhões de registros.
+
+
+Arquitetura HBase
+
+possui 2 tipos de Nodes: Master e RegionServer
+
+Master
+- Somente um node Master pode ser executado. A alta disponibilidade é mantida pelo ZooKeeper.
+- Responsável pela gestão de operações de cluster, como assignment, load, balancing e splitting
+- Não faz parte de operações de read/write
+
+
+RegionServer
+- um ou mais podem existir
+- Responsável por armazenar as tabelas, realizar leituras e buffers de escrita.
+- o cliente comunica com o RegionServer para processar operações de leitura/escrita
+
+---------------------------------------------------------
+
+Apache Flume
+Flume é ums erviço que basicamente permite enviar dados diretamente para o HDFS.
+
+Foi desenvolvimento pela Coudera e permite mover grandes quantidades de dados.
+
+Possui uma arquitetura simples e flexível baseada em streaming(fluxo constante) de dados.
+
+O Flume também pode ser usado em Infraestutura de TI.
+
+Agentes são instalados em servidores web, servidores de aplicação ou aplicativos mobile, para coletar e integrar os dados com Hadoop, para análise online.
+
+---------------------------------------------------------
+
+Apache Mahout
+Apache Mahout é uma biblioteca open-source de algoritmos de aprendizado de máquina, escalável e com foco em clustering, classificação e sistemas de recomendação.
+
+O Mahout é dedicado ao Machine Learning.
+
+O mahout permite a utilização dos principais algoritmos de clustering, testes de regressão e modelagem estatística e os implementa usando um modelo MapReduce.
+
+Quando utilizar?
+- Você precisa utilizar algoritmos de Machine Learning com alta performance?
+- Sua solução precisa ser open-source e gratuita?
+- Você possui um grande conjunto de dados (Big Data) e pretende utilizar ferramentas de análise como R, Python e Otave?
+- Seu processamento de dados será feito usando um modelo batch (você não precisa utilizar dados gerados em tempo real)?
+- Você precisa de uma biblioteca madura e disponível no mercado há alguns anos que já tenha sido testada e validada?
+- 
+---------------------------------------------------------
+
+Apache Kafka
+(análise em tempo real, sem armazenamento)
+
+O Apache Kafka foi desenvolvido pelo linkedin. 
+Ele é um sistema para gerenciamento de fluxos de dados em tempo real, gerados a partir de web sites, aplicações e sensores.
+
+Essencialmente, o Kafka age como uma espécie de "sistema nervoso central", que coleta dados de alto volume como por exemplo a atividade de usuários (clicks em um web site), logs, cotações de ações etc... e torna estes dados disponíveis como um fluxo em tempo real para o consumo por outras aplicações.
+
+O Apache Kafka foi desenvolvido como um propósito específico em memte: servir como um repositório central de fluxo de dados.
+
+
+
+
