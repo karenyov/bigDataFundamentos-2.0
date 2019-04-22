@@ -1,0 +1,123 @@
+Apache Spark
+O que é o Apache Spark?
+É um engine rápido e de uso geral para processamento de dados em larga escala (Big Data).
+
+É significantemente mais veloz que o Hadoop MapReduce e vem ganhando popularidade.
+
+Utiliza o Hadoop (HDFS) como base, mas pode ser usado com Cassandra, HBase e MongoDB.
+
+Pode ser usado com linguagens Python, R, Scala e Java.
+
+Empresas que utilizam: Globo.com, Yelp, Washington Post, Yahoo e Twitter.
+
+
+Caracteristicas:
+Velocidade: sua velocidade de execução pode ser até 100x mais rápido que o Hadoop MapReduce em memória e 10x em disco
+
+Facilidade de uso: Aplicações podem ser escritas em Java, Scala, R e Python
+
+Generalidade: Combina SQL Streaming e análise complexa, além do uso de ferramentas de alto nível com Spark SQL, MLlib para Machine Learning, GraphX e Spark Streaming
+
+Integração com Hadoop: Executa sobre o YARN cluster manager e permite leitura e escrita de dados no HDFS
+
+Spark é um projeto open source mantido por comunidade de desenvolvedores que foi criado em 2009 na Universidade da Califórnia, Berkeley.
+
+Os desenvolvedores estavam trabalhando com Hadoop MapReduce e perceberam ineficiências na execução de computação iterativa.
+
+Em pouco tempo, Apache Spark tem se tornado o mecanismo de processamento de Big Data para a próxima geração e está sendo aplicado em todo o mercado de dados mais rápido do que nunca.
+
+---------------------------------------------------------
+O Apache Spark oferece basicamente 3 principais benefícios:
+
+1- Facilidade de uso: é possível desenvolver API's de alto nível em Java, Scala, Python e R, que permitem focar apenas no conteúdo com configurações de baixo nível e extremamente técnicas.
+
+2 - Velocidade: Spark é veloz, permitindo uso iterativo e processamento rápido de algoritmos complexos. Valocidade é uma característica especialmente importando no processamento de grandes conjuntos de dados e pode fazer a diferença entre analisar os dados de forma interativa ou ficar aguardando vários minutos pelo fim de cada processamento. Com Spark, o processamento é feito em memória.
+
+3 - Uso Geral: Spark permite a utilização de diferentes tipos de computação, como processamento de linguagem SQL(SQL Spark), processamento de texto, Machine Learning (MLlib) e processamento de grafos (GraphX). Estas características fazem do Spark uma excelente opção para projetos de Big Data.
+
+O projeto Spark contém diversos componentes integrados. Basicamente, Spark é um engine de computação, responsável por agendar, distribuir e monitorar aplicações de diversas tarefas de processamento através de diferentes servidores em cluster.
+
+---------------------------------------------------------
+Spark Core: Contém as funcionalidades básicas do Spark, incluindo componentes para agendamento de tarefas, gestão de memória, recuperação de falha e sistemas de armazenamento.
+
+Spark SQL: é um pacote para tarefas com dados estruturados. Ele permite realizar queries nos dados através de linguagem SQL, além de suportar diversas fontes de dados com Hive e JSON.
+
+Spark Streaming: Esse é um componente do framework Spark para processamento de streams de dados em tempo real.
+
+Spark MLlib: A biblioteca MLlib é uma funcionalidade para Machine Learning.
+
+Spark GraphX: é uma biblioteca para manipulação de grafos e computação em paralelo.
+
+O resultado de um projeto de Big Data, pode ser a criação de um sistema de análise de dados em tempo real, que pode se tornar o componente de uma aplicação de negócio.
+
+
+---------------------------------------------------------
+Spark x Apache Hadoop
+
+O Hadoop é a plataforma original do Big Data, que tem sido usado e testado no mercado. Permite trabalhar com Petabytes de dados, Habilitando a análise de quantidades massivas de dados. Ele possui um ecosistema bem definido que permite estender suas funções, como no caso da utilização do Pig, Hive e HBase.
+
+O Hadoop MapReduce possui limitações e não atende a alguns requisitos cada vez mais importantes:
+- Programação iterativa (Machine Learning, Algoritmos, etc..)
+E streaming de dados
+
+
+Apache Spark
+Engine de computação em cluster
+- Veloz: em memória os dados são processados ate 100x mais rápido que no MapReduce.
+- Propósito geral: SQL, Streaming, Machine Learning
+- Compatibilidade: Hadoop, Mesos, Yarn, Standalone, HDFS, S3, Cassandra, HBase
+- Mais fácil e simples
+
+"É a primeira plataforma de Big Data a integrar batch, streaming e computação interativa em um único framework"
+
+
+Hadoop
+- Armazenamento distribuído + Computação distribuída
+- Framwork MapReduce
+- Normalmente processa dados em disco (HDFS)
+- Não é ideal para trabalho iterativo
+- processo batch
+- basicamente Java
+- Não possui um shell unificado
+
+Spark
+- Somente computação distribuída
+- Computação genérica
+- Em disco / Em memória
+- Excelente para trabalhos iterativos (Machine Learning)
+- até 10x mais rápido para dados em disco/até 100x mais rápido para dados em memória
+- Suporta Java, Python, Scala
+- Shell para exploração ad-hoc
+
+---------------------------------------------------------
+Então o Spark vai substituir o Hadoop? 
+R. Não
+
+
+- Spark executa sobre o HDFS/YARN
+- pode acessar o HDFS
+- Usa YARN para gerenciamento do cluster
+- Spark é realmente bom quando os dados podem ser processados em memória
+
+---------------------------------------------------------
+Apache Storm
+
+Se tornou o padrão para processamento em tempo real distribuído e permite processar grandes quantidades de dados. Foi desenvolvido em Java.
+Ele foi criado para processar grandes quantidades de dados em ambientes tolerantes a falhas e escaláveis.
+
+Basicamente, o Storm é um framework para Streaming de dados(fluxo contínuo de dados) e possui uma alta taxa de ingestão de dados
+
+A gestão do estado do cluster é feita através do Zookeeper.
+
+O Storm é simples e você pode executar todos os tipos de manipulação de dados em tempo real, em paralelo. Ele é um dos líderes em Real-Time Analytics.
+
+
+benefícios:
+- é open-source,robusto e amigável (fácil utilização)
+- Tolerante a falhas, flexível, confiável e suporta diversas linguagens de programação
+- processa dados em tempo real
+- Storm é incrivelmente veloz
+
+
+---------------------------------------------------------
+

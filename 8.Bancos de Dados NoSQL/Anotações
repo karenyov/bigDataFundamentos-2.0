@@ -1,0 +1,138 @@
+Bancos de Dados NoSQL
+
+Banco de Dados tradicionais RDBMS (Relational Database Management Systems) não foram projetados para tatar grandes quantidades de dados não-estruturados (Big Data) .
+Ex. Oracle, MySQL, SQLServer etc.
+
+
+Eles foram projetados somente para tratar conjuntos de dados que possam ser armazenados em linhas e colunas e portanto, possam ser consultados através do uso de queries utilizando linguagem SQL (Structured Query Language)
+
+---------------------------------------------------------
+Bancos de Dados NoSQL, são banco de dados distribuídos e não-relacionais, que foram projetados para atender os requerimentos do Big Data. Eles oferecem uma arquitetura muito mais escalável e eficiente que os bancos relacionais e facilitam consultas no-sql de dados semi-estruturados ou não-estruturados.
+
+Ex: MongoDB, Cassandra e CouchDB, etc.
+---------------------------------------------------------
+Bancos de Dados NoSQL oferecem 4 categorias principais de banco de dados:
+
+- Graph databases
+- Document databases
+- Key-values stores
+- Column family stores
+
+Graph databases
+geralmente é aderente a cenários de rede social online, onde os nós representam as entidades e os laços representam as interconexões entre eles.
+Desta forma, é possível atravessar o grafo seguindo as relações. Esta categoria têm sido usada para lidar com problemas relacionados a sistemas de recomendação e listas de controle de acesso, fazendo uso de sua capacidade de lidar com dados altamente interligados.
+
+
+Document databases
+Esta categoria permite o armazenamento de milhões de documentos. Por exemplo, você pode armazenar detalhes sobre um empregado, junto com o currículo dele (como um documento) e então pesquisar sobre potenciais candidatos a uma vaga, usando um campo específico, como telefone ou conhecimento em uma tecnologia.
+Ex: MongoDB
+
+
+Key-values stores
+Nesta categoria, os dados são armazenados no formato key-value(chave-valor) e os valores (dados) são identificados pelas chaves.
+É possível armazenar bilhões de registros de forma eficiente e o processo de escrita é bem rápido. Os dados podem ser então pesquisados através das chaves associadas.
+Ex: DynamoDB
+
+
+Column family stores
+Também chamado banco de dados orientados a coluna, os dados são organizados em grupos de colunas e tanto o armazenamento, quanto as pesquisas de dados são baseados em chaves.
+Ex: HBase, Hypertable
+
+
+Os principais Bancos de Dados NoSQL são:
+
+- Graph: Neo4J, FlockDB, GraphDB, ArangoDB.
+
+-Key-value: Oracle NoSQL DB, MemcacheDB, Redis, AWS DynamoDB
+
+- Document: MongoDB, CouchDB, RavenDB, Terrastore
+
+- Column: HBase, Cassandra(banco híbrido), Hypertable, Accumulo
+
+
+E por que usar bancos de dados NoSQL?
+- Representação de dados sem esquema
+- Tempo de desenvolvimento
+- Velocidade
+- Escalabilidade
+
+---------------------------------------------------------
+MongoDB
+é um banco de dados orientado a documento, uma das categorias de banco de dados NoSQL.
+Um banco de dados NoSQL orientado a documento, substitui o conceito de "linha" como em bancos de dados relacionais, por um modelo mais flexível, o "documento".
+
+o MongoDB é open-source e um dos líderes no segmento de bancos de dados NoSQL. Ele foi desenvolvido em linguagem C++. 
+
+Principais características:
+- Indexação: suporta índices secundários, permitindo a constução de queries mais velozes.
+
+- Agregação: permite a construção de agregações complexas de dados, otimizando o desempenho.
+
+- Tipos de dados especiais: suporta coleções time-to-live para dados que expiram em um determinado tempo, como sessões por exemplo.
+
+- Armazenamento: suporta o armazenamento de grandes quantidades de dados.
+
+Algumas características presentes em bancos de dados relacionais não estão presentes no MongoDB, como alguns tipos de joins e transações multi-linha.
+
+MongoDB            RDBMS
+Database	   Database
+Collection         Table
+Document           Tuple/Row
+Field              Column
+Embedded Documents  Table Join
+Primary Key        Primary Key	
+
+
+Onde usar o MongoDB?
+- Big Data
+- Gestão de Conteúdo
+- Infraestrutura Social e Mobile
+- Gestão de Dados de Usuários
+- DataHub	
+
+---------------------------------------------------------
+Apache Cassandra
+É um banco de dados NoSQL, livremente distribuído, de alta performance, extremamente escalável e tolerante a falha.
+Ele foi concebido com a premissa que falhas de sistema ou de hardware sempre ocorrem.
+
+Foi inicialmente desenvolvido pelo Facebook, como uma combinação do BigTable (Google) and Dynamo Data Store (Amazon).
+
+O Cassandra é usado pra armazenar gigantescas quantidades de dados (Big Data), de forma rápida. Ele também funciona muito bem quando se faz necessário a pesquisa de dados de forma indexada.
+
+É voltado para trabalhar em clusters, sendo totalmente escalável. Novos nodes podem ser adicionados, à medida que os dados crescem.
+
+É ainda uma excelente solução quando se necessita de alta performance para leitura e escrita.
+
+Algumas empresas/websites que usam o Cassandra: eBay, GitHub, GoDaddy, Instagram, Netflix, Reddit, CERN, Comcast, entre outras.
+
+---------------------------------------------------------
+CouchDB
+É um banco de dados totalmente voltado para a web.
+No CouchDB os dados são armazenados em documentos JSON (Java Script Object Notation), que consistem em campos que podem ser strings, números, datas, listas ordenadas e mapas associativos.
+Suporta aplicativos web e mobile.
+Ele é distribuído em pares com ums erver e um client, que podem ter cópias independentes do mesmo banco de dados.
+
+O Apache CouchDB foi o banco de dados que deu o pontapé inicial do movimento NoSQL.
+
+Ele foi construído a partir do zero com alto desempenho e tolerância a falhas em memte.
+
+
+Permite aos usuários armazenar, reproduzir, sincronizar e processar grandes quantidades de dados (Big Data), distribuídos em dispositivos móveis, servidores, Data Centers e regiões geográficas distintas em qualquer configuração de implantação, incluindo ambiente em nuvem (Cloud).
+
+
+
+
+---------------------------------------------------------
+
+
+
+
+
+
+---------------------------------------------------------
+
+
+
+
+
+

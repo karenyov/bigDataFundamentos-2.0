@@ -1,0 +1,93 @@
+Soluções Comerciais com Hadoop
+
+Por que Utilizar Soluções Comerciais com Hadoop?
+
+- Suporte: as principais soluções comerciais do Hadoop oferecem suporte, guias, assistência e melhores práticas.
+
+- Confiança: sempre que um bug é detectado, as soluções comerciais prontamente atualizam o software.
+
+- Pacote compelto: as soluções oferecem pacotes completos, com tudo que é necessário para uma infraestrutura de Big Data.
+
+
+Principais soluções:
+- Cloudera
+- IBM
+- Pivotal Software
+- Intel
+- Teradata
+- AWS
+
+---------------------------------------------------------
+Amazon Web Services Elastic MapReduce (EMR)
+
+A distribuição Hadoop da Amazon, foi uma das primeiras distribuições comerciais do Hadoop.
+
+AWS Elastic MapReduce é uma plataforma de análise de dados bem organizada e construída sobre a arquitetura HDFS.
+
+Com foco principal em consultas de mapeamento/redução o AWS EMR explora ferramentas Hadoop, fornecendo uma plataforma de infraestrutura escalável e segura para seus usuários
+
+Aamzon Web Services EMR está entre uma das distribuições comerciais do hadoop com a maior participação no mercado global
+
+
+---------------------------------------------------------
+
+Cloudera
+
+Cloudera Hadoop está entre os grandes fornecedores do Hadoop, pois possui uma plataforma confiável para uso comercial desde 2008.
+
+Cloudera possui um sistema amigável de gestão, chamado Cloudera Manager, para gestão de dados e que possui suporte técnico.
+
+
+---------------------------------------------------------
+Hortonworks
+
+Hortonworks Data Platform (HDP) é uma suite de funcionalidades essenciais para implementção do Hadoop, que pode ser usado para qualquer plataforma tecnológica de dados
+
+O principal objetivo da Hortonworks é conduzir todas as suas inovações através da plataforma Hadoop e construir um ecossistema de parceiros que acelere o processo de adoção do Hadoop entre as empresas.
+
+
+Principais clientes: Samsung, Spotify, Bloomberg e eBay.
+
+A Hortonworks tem atraído fortes parcerias de engenharia com RedHat, Microsoft, SAP e Teradata.
+
+
+---------------------------------------------------------
+MapR Data Platform 
+Suporta mais de 20 projetos open-source.
+
+MapR foi reconhecida amplamente por suas distribuições avançadas em Hadoop, no relatório do Garner "Super Vendedores em Infraestrutura da Informação e Big Data, 2012"
+
+Ela foi projetada tendo em memte as operações de TI em Data Centers e também suporta amplamente processamento de dados em batch ou streaming de dados em tempo real.
+
+---------------------------------------------------------
+
+Pivotal HD
+
+É uma distribuição comercial do Hadoop. Ele consiste em um conjunto de ferramentas que visam acelerar projetos de análise de dados e expandir as funcionalidades do Hadoop.
+Possui capacidade de análise em tempo real e decisões de processos de negócio podem ser tomadas quase que imediatamente à análise de dados.
+Ele fornece um motor SQL nativo para o Hadoop.
+Possui ainda suporte para processamento de Big Data em memória, o que acelera o processamento de dados.
+
+
+---------------------------------------------------------
+Windows Azure HDInsight
+É uma distribuição Apache Hadoop distribuída em Cloud.
+O Azure HDInsight consegue lidar com quantidades de dados, de terabytes até petabytes, permitindo a inclusão de nodes sob demanda.
+Por ser 100% Apache Hadoop, o HDInsight pode processar dados semi-estruturados ou não estruturados, tais como clicks em páginas web, posts em mídia social, logs de servidores, dados de sensores, etc...
+
+O HDInsight também possui extensões para programação em C#, Java e .NET, que podem ser usadas para criar, configurar, submeter e monitorar jobs Hadoop.
+Por ser integrado com Excel, ele permite visualizar e analisar dados do Hadoop, de forma que seja familiar aos usuários finais.
+
+
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+
+

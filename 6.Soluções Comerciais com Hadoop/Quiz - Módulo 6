@@ -1,0 +1,35 @@
+Questão 1
+Se o Hadoop é livre, porque eu usaria soluções comerciais do software?
+
+
+- As principais soluções comerciais do Hadoop oferecem suporte, guias, assistência e melhores práticas
+- Sempre que o um bug é detectado, as soluções comerciais prontamente atualizam o software.
+- As soluções oferecem pacotes completos, com tudo que é necessário para uma infraestrutura de Big Data.
+- Todas estão corretas.(correta)
+
+Questão 2
+Amazon Web Services EMR está entre uma das distribuições comerciais do Hadoop com a maior participação no mercado global.
+
+- Verdadeiro (correta)
+- Falso
+
+Questão 3
+Fazem parte da solução comercial Cloudera?
+- Hadoop, Java, Hive, Hbase e Sqoop
+- Hadoop, Java, HTML, Hbase e Sqoop
+- Hadoop, C++, Hive, xbase e Sqoop
+- Hadoop, Pig, Hive, Hbase e Sqoop
+
+Questão 4
+O principal objetivo da Hortonworks é conduzir todas as suas inovações através da plataforma de dados abertos Hadoop e construir um ecosistema de parceiros que diminui o processo de adoção Hadoop entre empresas.
+
+- Verdadeiro 
+- Falso (correta)
+obs: Parabéns! O principal objetivo da Hortonworks é conduzir todas as suas inovações através da plataforma de dados abertos Hadoop e construir um ecosistema de parceiros que acelera o processo de adoção Hadoop entre empresas.
+
+Questão 5
+Pivotal HD é uma distribuição comercial do Hadoop. Ele consiste em um conjunto de ferramentas que visam acelerar projetos de análise de dados e expandir as funcionalidades do Hadoop.
+- Verdadeiro (correta)
+- Falso 
+
+

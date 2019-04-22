@@ -1,0 +1,36 @@
+Questão 1
+Bancos de Dados tradicionais foram projetados somente para tratar conjuntos de dados que possam ser armazenados em linhas e colunas e portanto, possam ser consultados através do uso de queries utilizando linguagem SQL (Structured Query Language).
+
+- Verdadeiro (correta)
+- Falso
+
+Questão 2
+Bancos de Dados relacionais não possuem funcionalidades necessárias para atender os requisitos do Big Data, dados gerados em grande volume e alta velocidade. 
+- Verdadeiro (correta)
+- Falso 
+
+Questão 3
+A respeito de Banco de Dados NoSql marque a opção incorreta?
+- Bancos de Dados NoSQL, são bancos de dados distribuídos e não-relacionais, que foram projetados para atender os requerimentos de Big Data.
+- Bancos de Dados NoSQL oferecem uma arquitetura mais escalável e eficiente que os bancos relacionais.
+- Bancos de Dados NoSQL facilitam consultas no-sql de dados semi-estruturados ou não-estruturados. 
+- O modelo relacional e a Structured Query Language (SQL) foram por décadas o padrão para armazenamento de dados e agora são os mais adequados para aplicação em Big Data.(correta)
+
+
+Questão 4
+Quais as quatro categorias principais dos Bancos de Dados NoSQL?
+- Graph databases, Document Oraclesystem, Key-values, Column family stores.
+- Graph Xbase, Document databases, Key-values stores, Column stores database.
+- Graph databases, Document databases, Key-values stores, Column family stores.(correta)
+- Graph Xbase, Document Oraclesystem, Key-values stores, Column family stores.
+
+Questão 5
+Qual tipo de indexação é suportada pelo MongoDB?
+- Índices secundários
+- Índices primários
+- Índices externos.
+- Índices internos.
+
+
+
+

@@ -1,0 +1,44 @@
+Questão 1
+O projeto Spark contém diversos componentes integrados. Basicamente, Spark é um engine de computação, responsável por agendar, distribuir e monitorar aplicações de diversas tarefas de processamento através de diferentes servidores em cluster.
+
+
+- Verdadeiro (correta)
+- Falso
+
+Questão 2
+Contém as funcionalidades básicas do Spark, incluindo componentes para agendamento de tarefas, gestão de memória, recuperação de falha e sistemas de armazenamento.
+
+- Spark SQL
+- Spark Core (correta)
+- Spark Streaming
+- Todas estão corretas
+
+Questão 3
+O Apache Spark é compatível com?
+- SQL, Java e C++, cobol
+- Memoría distribuida, Mapreduce e NoSql
+- Hadoop, Mesos, Yarn, Standalone, HDFS, Cassandra e HBase (correta)
+- Todas estão erradas
+
+Questão 4
+Sobre o Apache Spark é incorreto afirmar:
+- O Hadoop utiliza Framework Mapreduce e o Spark computação genérica.
+- O Hadoop realiza armazenamento distribuído e computação distribuída e o spark utiliza somente computação distribuída.
+- O Hadoop não é ideal para trabalho iterativo enquanto o Spark é excelente para trabalhos iterativos.
+- O Hadoop processa dados em memória e o Spark somente em disco.(correta)
+
+Questão 5
+Spark SQL é um pacote para tarefas com dados estruturados. Ele permite realizar queries nos dados através de linguagem SQL, além de suportar diversas fontes de dados como Hive e JSON. 
+
+- Verdadeiro (correta)
+- Falso
+
+
+
+
+
+
+
+
+
+
