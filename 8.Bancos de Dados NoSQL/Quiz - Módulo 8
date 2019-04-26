@@ -26,7 +26,7 @@ Quais as quatro categorias principais dos Bancos de Dados NoSQL?
 
 Questão 5
 Qual tipo de indexação é suportada pelo MongoDB?
-- Índices secundários
+- Índices secundários (correta)
 - Índices primários
 - Índices externos.
 - Índices internos.

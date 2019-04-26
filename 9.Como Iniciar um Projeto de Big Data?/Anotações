@@ -1,0 +1,95 @@
+
+Como as Empresas Estão Utilizando o Big Data
+
+CAESARS Entertainment
+A companhia de entretenimento em cassinos está usando o ambiente Hadoop para identificar diferentes segmentos de consumidor e criar campanhas de marketing específicas para cada um deles.
+O novo ambiente reduziu o tempo de processamento de 6 horas para 45 minutos para posições-chave. Isso permitiu à Caesars promover uma análise de dados mais rápida e exata, apromirando a experiência de consumidor e fazendo com que a segurança atendesse os requisitos do setor de pagamentos com cartões.
+A empresa agora processa mais de 3 milhões de registros por hora.
+
+
+Cerner
+A empresa de tecnologia para o setor de saúde construiu um hub de dados corporativos no CDH (Cloudera Distribution), para criar uma visão mais compreensível de qualquer paciente, condição ou tendência.
+A tecnologia ajuda a Cerner e seus clientes a monitoratem mais de 1 milhão de pacientes diariamente.
+Entre outras coisas, ela colabora na determinação mais exata da probabilidade de um paciente estar com infecção em sua corrente sanguínea.
+
+
+EHarmony
+O site de namoro online recentemente atualizou seu ambiente na nuvem, usando o CDH para analisar um volume massivo e variado de dados.
+A tecnologia ajuda a eHarmony a disponibilizar novas combinações a milhões de pessoas diariamente.
+O novo ambiente cloud acomoda análises mais complexas, criando resultados mais personalizados e aumentando a chance de sucesso nos relacionamentos.
+
+
+MasterCard
+A empresa foi a primeira a implementar a distribuição CDH do Hadoop após receber certificação PCI completa.
+A companhia usou os servidores Intel para integrar conjuntos de dados a outros ambientes já certificados.
+A MarterCard incentiva seus clientes a adotarem o sistema através do seu braço de serviços profissionais , o MasterCard Advisors.
+
+
+FarmLogs
+A companhia de software para gerenciamento de produções agrícolas usa analytics em tempo real rodando nos processadores Intel Xeon E5 para fornecer dados sobre colheita, condições de plantio e estado da vegetação para 20% das fazendas americanas.
+A tecnologia ajuda os fazendeiros a aumentarem a produtividade de seus acres.
+
+
+Nippon Paint
+Uma das maiores fornecedoras de tinta da Ásia usa os processadores Intel Xeon E7 v2 para compreender o comportamento de clientes, otimizar sua cadeia de suprimentos e melhorar suas campanhas de marketing.
+A Nippon Paint agora testa um novo sistema baseado no Hadoop para usufruir das ferramentas de alto desempenho e processar Big Data.
+
+
+
+Facebook: mais de 12 TB de storage
+Hadoop é utilizado em soluções de relatórios e Machine Learning
+
+Twitter: --
+Hadoop é usado desde 2010 para o processamento de logs e tweets
+
+
+LinkedIn: 4100 nodes Hadoop
+Todos os dados do LinkedIn passam através de um cluster Hadoop
+
+
+Yahoo!: 4500 nodes Hadoop e mais de 1 TB de storage
+Usado no portal do Yahoo
+
+
+Ebay: 4000 nodes Hadoop
+Um dos maiores clusters Hadoop que se tem notícia, usado para processar as mais de 300 milhões de pesquisas feitas pelos usuários
+
+---------------------------------------------------------
+Como Iniciar um Projeto de Big Data
+
+1. Definição do Business Case
+2. Planejamento do Projeto
+3. Definição dos Requisitos Técnicos
+4. Criação de um "Total Business Value Assessment"
+---------------------------------------------------------
+1. Definição do Business Case
+Definição do objetivo
+
+---------------------------------------------------------
+2. Planejamento do Projeto
+- Especificar as metas
+- determinar os requisitos
+- determinar escopo adequado
+- desenvolver orçamento
+- definir uma linha do tempo
+
+---------------------------------------------------------
+3. Definição dos Requisitos Técnicos
+- definir a arquitetura
+- integrar os ambientes
+- como mesclar as diferentes fontes de dados
+- quais ferramentas de análise usar
+- quais as habilidades técnicas para trabalhar no ambiente
+- local ou na nuvem?
+
+---------------------------------------------------------
+4. Criação de um "Total Business Value Assessment"
+
+- facilitade de uso
+- escalabilidade
+- maturidade da empresa
+
+
+
+---------------------------------------------------------
+
